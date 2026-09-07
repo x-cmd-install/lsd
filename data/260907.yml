@@ -5,15 +5,15 @@ about:
   head: 4b6c14a
   archived: false
   latestVersion: "v1.2.0"
-  collectedAt: 2026-09-07T06:15:33Z
+  collectedAt: 2026-09-07T18:26:23Z
 timeline:
   created: 2018-11-24
   lastCommit: 2026-08-17
   lastRelease: 2025-10-12
 popularity:
-  star: 16216
+  star: 16214
   watcher: 76
-  fork: 507
+  fork: 508
   release: 31
   contributor: 179
   pullRequest: 542
@@ -80,7 +80,7 @@ total:
   commit: 1119
 ---
 path: /home/runner/.x-repo/github.com/lsd-rs/lsd
-collectedAt: 2026-09-07T06:15:34Z
+collectedAt: 2026-09-07T18:26:24Z
 loc:
   Rust:
     code: 11732
@@ -126,7 +126,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T06:15:34+00:00
+  collectedAt: 2026-09-07T18:26:25+00:00
   platform:
     darwin/arm64:
       name:  lsd-v1.2.0-aarch64-apple-darwin.tar.gz
