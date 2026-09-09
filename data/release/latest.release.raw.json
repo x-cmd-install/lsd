@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1414052,
       "digest": "sha256:ae5eccbc889c274224deffe70668bc6e6282ce8debc6760da2cad22ca738964f",
-      "download_count": 3062,
+      "download_count": 3074,
       "created_at": "2025-10-12T08:36:11Z",
       "updated_at": "2025-10-12T08:36:11Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-musl_1.2.0_amd64.deb"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1294206,
       "digest": "sha256:5b4842967e182165d6e3c82a73e96f3b5acfc0c779cf6f6ffdd9c508d105db99",
-      "download_count": 715,
+      "download_count": 719,
       "created_at": "2025-10-12T08:37:16Z",
       "updated_at": "2025-10-12T08:37:17Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-musl_1.2.0_arm64.deb"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1349788,
       "digest": "sha256:9e34a5d392ff913302098aad0543dafa1883c531eaf229b82f086c3fca675e3e",
-      "download_count": 12036,
+      "download_count": 12067,
       "created_at": "2025-10-12T08:33:49Z",
       "updated_at": "2025-10-12T08:33:50Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-apple-darwin.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1483193,
       "digest": "sha256:48c069cf73a8ed0851f366afeac86e3a9b7db416133f45d033d31d123f819f26",
-      "download_count": 2419,
+      "download_count": 2453,
       "created_at": "2025-10-12T08:35:48Z",
       "updated_at": "2025-10-12T08:35:48Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-unknown-linux-gnu.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1516620,
       "digest": "sha256:642ecb1a763b9f790a99c83a1445c117a6813ed4edb5d498d4420423c6353eb8",
-      "download_count": 4815,
+      "download_count": 4821,
       "created_at": "2025-10-12T08:37:16Z",
       "updated_at": "2025-10-12T08:37:16Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-unknown-linux-musl.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1575489,
       "digest": "sha256:f7462f5963cfda1d1ff83ca3685e3f662fcbf275da9104b6f9508dfe9d084d80",
-      "download_count": 1297,
+      "download_count": 1300,
       "created_at": "2025-10-12T08:39:03Z",
       "updated_at": "2025-10-12T08:39:04Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-i686-pc-windows-msvc.zip"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 1459284,
       "digest": "sha256:00d3c50551b270bbdf7da97816e5ba7f5fd10294cd310165f7f8b5523e738b9c",
-      "download_count": 1677,
+      "download_count": 1687,
       "created_at": "2025-10-12T08:36:18Z",
       "updated_at": "2025-10-12T08:36:18Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-apple-darwin.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1895357,
       "digest": "sha256:f0b83b42d6e9a92a1da6dfc61c46a862574c9cadcb035b0493ae48479bdaa6bb",
-      "download_count": 1603,
+      "download_count": 1607,
       "created_at": "2025-10-12T08:40:28Z",
       "updated_at": "2025-10-12T08:40:28Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-pc-windows-gnu.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 1779179,
       "digest": "sha256:a65b9f457153934a7ce1f7e0fe1c4922a95bb2822222126e4fbaa6ee9c0d78e5",
-      "download_count": 17037,
+      "download_count": 17069,
       "created_at": "2025-10-12T08:39:14Z",
       "updated_at": "2025-10-12T08:39:14Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-pc-windows-msvc.zip"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 1636378,
       "digest": "sha256:57d3b5859254adcfb8374ce98159cca97a14959997d2ae1176d2cff59556d829",
-      "download_count": 20412,
+      "download_count": 20549,
       "created_at": "2025-10-12T08:36:38Z",
       "updated_at": "2025-10-12T08:36:39Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-unknown-linux-gnu.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1666188,
       "digest": "sha256:77849da1210336534258551a581401ba19ae6b8d7b66a2a1feff148ad41e3814",
-      "download_count": 34673,
+      "download_count": 34719,
       "created_at": "2025-10-12T08:36:11Z",
       "updated_at": "2025-10-12T08:36:11Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-unknown-linux-musl.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 1385024,
       "digest": "sha256:b212d4c941fa0960c44d94d44039645802a5b7cc8554900e4d53bab5b2574f07",
-      "download_count": 8101,
+      "download_count": 8121,
       "created_at": "2025-10-12T08:36:38Z",
       "updated_at": "2025-10-12T08:36:39Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_amd64.deb"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 1252736,
       "digest": "sha256:9f799c1258b6acbefbb2135b6128ab4369ea3872fb1d402cb5375aa7184dd677",
-      "download_count": 776,
+      "download_count": 779,
       "created_at": "2025-10-12T08:35:48Z",
       "updated_at": "2025-10-12T08:35:48Z",
       "browser_download_url": "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_arm64.deb"
