@@ -1,51 +1,51 @@
 # lsd
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 The next gen ls command
 
-![lsd](https://repo.x-cmd.io/lsd.svg)
+![lsd](https://repo.x-cmd.io/lsd.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install lsd
 ```
 
-## Code insight
+## 代码规模
 
-Total: **12,651** lines of code across **63** files in the top 5 languages.
+合计: **12,651** 行代码（覆盖前 5 种语言、共 **63** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Rust | 11,732 | 303 | 1,664 | 54 |
 | Yaml | 704 | 95 | 22 | 3 |
 | Bash | 108 | 18 | 30 | 3 |
 | Toml | 69 | 8 | 10 | 2 |
 | RPMSpecfile | 23 | 1 | 8 | 1 |
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/lsd-rs/lsd>
-- **License**: Apache-2.0
+- **上游仓库**: <https://github.com/lsd-rs/lsd>
+- **许可证**: Apache-2.0
 
-## Release
+## 发布
 
-- **Latest**: `v1.2.0` (2025-10-12)
-- **Last commit**: 2026-08-17
-- **Assets in release**: 25
+- **最新版本**: `v1.2.0` (2025-10-12)
+- **最近提交**: 2026-08-17
+- **Release 含资产**: 25 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 16,217 · **Forks**: 509 · **Open issues**: 647 · **Contributors**: 179
+- **Star**: 16,217 · **Fork**: 509 · **开放 issue**: 647 · **贡献者**: 179
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 31 · **Merged PRs**: 428 · **Open PRs**: 44 · **Closed issues**: 484 · **Open issues**: 163 · **Commits**: 1119
+- **发布数**: 31 · **已合并 PR**: 428 · **开放 PR**: 44 · **已关闭 issue**: 484 · **开放 issue**: 163 · **提交数**: 1119
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 2 | 6 | 0 | 0 | 2 |
 | last60d | 2026-07-12 | 0 | 3 | 12 | 0 | 1 | 3 |
@@ -54,10 +54,10 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 | 360d | 2025-09-15 | 1 | 19 | 25 | 3 | 17 | 26 |
 | last720d | 2024-09-20 | 1 | 37 | 32 | 15 | 33 | 42 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [lsd-musl_1.2.0_amd64.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-musl_1.2.0_amd64.deb) | 1.3 MiB | `runtime/deb/amd64` |
 | [lsd-musl_1.2.0_amd64_xz.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-musl_1.2.0_amd64_xz.deb) | 1.2 MiB | `other` |
 | [lsd-musl_1.2.0_arm64.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-musl_1.2.0_arm64.deb) | 1.2 MiB | `runtime/deb/arm64` |
@@ -84,12 +84,12 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 | [lsd_1.2.0_i686.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_i686.deb) | 1.3 MiB | `other` |
 | [lsd_1.2.0_i686_xz.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_i686_xz.deb) | 1.2 MiB | `other` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **106** distros on [repology.org](https://repology.org/project/lsd). **59** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/lsd) 上共有 **106** 个发行版报告此项目。**59** 个 ✅ 已是最新上游版本，**40** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Debian unstable | `1.2.0` | ✅ latest |
 | Debian 14 | `1.2.0` | ✅ latest |
 | Debian 13 | `1.1.5` | ⚠️ outdated |
@@ -103,13 +103,13 @@ Reported by **106** distros on [repology.org](https://repology.org/project/lsd).
 | Alpine edge | `1.2.0` | ✅ latest |
 | openSUSE Tumbleweed | `1.2.0` | ✅ latest |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for lsd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `lsd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+lsd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `lsd` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/lsd.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/lsd.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:48:10Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:48:10Z._
