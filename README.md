@@ -37,7 +37,7 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 16,262 · **Forks**: 541 · **Open issues**: 649 · **Contributors**: 180
+- **Stars**: 16,262 · **Forks**: 519 · **Open issues**: 649 · **Contributors**: 180
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 7 | 0 | 2 | 0 |
-| 90d | 2026-07-24 | 0 | 3 | 17 | 0 | 3 | 2 |
-| last180d | 2026-04-25 | 0 | 5 | 24 | 0 | 6 | 5 |
-| 360d | 2025-10-27 | 0 | 15 | 30 | 3 | 17 | 16 |
-| last720d | 2024-11-01 | 1 | 37 | 35 | 14 | 35 | 39 |
+| 30d | 2026-09-23 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 7 | 0 | 2 | 0 |
+| 90d | 2026-07-25 | 0 | 2 | 17 | 0 | 3 | 2 |
+| last180d | 2026-04-26 | 0 | 5 | 24 | 0 | 6 | 5 |
+| 360d | 2025-10-28 | 0 | 15 | 30 | 3 | 17 | 16 |
+| last720d | 2024-11-02 | 1 | 37 | 35 | 14 | 35 | 39 |
 
 ## Release assets
 
@@ -84,6 +84,25 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 | [lsd_1.2.0_i686.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_i686.deb) | 1.3 MiB | `other` |
 | [lsd_1.2.0_i686_xz.deb](https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd_1.2.0_i686_xz.deb) | 1.2 MiB | `other` |
 
+## Distribution status
+
+Reported by **106** distros on [repology.org](https://repology.org/project/lsd). **59** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.2.0` | ✅ latest |
+| Debian 14 | `1.2.0` | ✅ latest |
+| Debian 13 | `1.1.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.2.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.0.0` | ⚠️ outdated |
+| Arch | `1.2.0` | ✅ latest |
+| Homebrew | `1.2.0` | ✅ latest |
+| Fedora rawhide | `1.2.0` | ✅ latest |
+| Nix unstable | `1.2.0` | ✅ latest |
+| Void | `1.2.0` | ✅ latest |
+| Alpine edge | `1.2.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.2.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for lsd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `lsd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -93,4 +112,4 @@ Install metadata for lsd lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:59:46Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:12:37Z._
