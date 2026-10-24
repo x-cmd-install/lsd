@@ -1,48 +1,10 @@
-- repo: nix_stable_24_11
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: null
-  status: outdated
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: null
-  status: outdated
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
+- repo: crates_io
   srcname: lsd
   visiblename: lsd
   version: 1.2.0
   origversion: null
   status: newest
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: pclinuxos
-  srcname: lsd
-  visiblename: lsd
-  version: 0.13.0
-  origversion: 0.13.0-1pclos2019
-  status: outdated
-  summary: Colorful ls command line replacement for console
-  categories:
-    - System/Configuration/Hardware
+  summary: An ls command with a lot of pretty colors and some other stuff.
 - repo: aerynos
   srcname: lsd
   visiblename: lsd
@@ -208,6 +170,13 @@
     - saijin-naib_package-maintenance@outlook.com
   licenses:
     - Apache-2.0
+- repo: homebrew
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Clone of ls with colorful output, file type icons, and more
 - repo: alpine_edge
   subrepo: community
   srcname: lsd
@@ -376,13 +345,6 @@
   origversion: null
   status: newest
   summary: Next generation ls command.
-- repo: crates_io
-  srcname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: An ls command with a lot of pretty colors and some other stuff.
 - repo: debian_12
   subrepo: bookworm/main
   srcname: rust-lsd
@@ -525,13 +487,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: homebrew
-  srcname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: Clone of ls with colorful output, file type icons, and more
 - repo: fedora_39
   subrepo: release
   srcname: rust-lsd
@@ -661,22 +616,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: rust-lsd
-  binnames:
-    - lsd
-    - rust-lsd-debuginfo
-    - rust-lsd-debugsource
-  visiblename: rust-lsd
-  version: 1.2.0
-  origversion: 1.2.0-8.fc43
-  status: newest
-  summary: Ls command with a lot of pretty colors and some other stuff
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: rust-lsd
   binnames:
@@ -692,7 +631,7 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: updates
   srcname: rust-lsd
   binnames:
@@ -701,7 +640,7 @@
     - rust-lsd-debugsource
   visiblename: rust-lsd
   version: 1.2.0
-  origversion: 1.2.0-8.fc44
+  origversion: 1.2.0-8.fc43
   status: newest
   summary: Ls command with a lot of pretty colors and some other stuff
   licenses:
@@ -724,18 +663,22 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.2
-  origversion: null
-  status: outdated
-  summary: The next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-lsd
+  binnames:
+    - lsd
+    - rust-lsd-debuginfo
+    - rust-lsd-debugsource
+  visiblename: rust-lsd
+  version: 1.2.0
+  origversion: 1.2.0-8.fc44
+  status: newest
+  summary: Ls command with a lot of pretty colors and some other stuff
   licenses:
     - Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-lsd
@@ -764,6 +707,53 @@
     - zihado@gmail.com
   categories:
     - sysutils
+- repo: macports
+  srcname: sysutils/lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next gen ls command
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-2
+  status: newest
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-2
+  status: newest
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-2
+  status: newest
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache-2.0
 - repo: gentoo
   srcname: sys-apps/lsd
   visiblename: sys-apps/lsd
@@ -861,53 +851,6 @@
     - Unicode-DFS-2016
   categories:
     - sys-apps
-- repo: macports
-  srcname: sysutils/lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next gen ls command
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - Apache-2
-  categories:
-    - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-2
-  status: newest
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-2
-  status: newest
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-2
-  status: newest
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-lsd
   binname: mingw-w64-clang-x86_64-lsd
@@ -938,6 +881,54 @@
   summary: The next gen ls command (mingw-w64)
   licenses:
     - spdx:Apache-2.0
+- repo: nix_stable_24_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.2
+  origversion: null
+  status: outdated
+  summary: The next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: lsd
   visiblename: lsd
@@ -950,6 +941,18 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - Apache-2.0
+- repo: pkgsrc_2026_3
+  srcname: sysutils/lsd
+  binname: lsd
+  visiblename: sysutils/lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next gen ls command
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
 - repo: nix_unstable
   srcname: lsd
   visiblename: lsd
@@ -1144,19 +1147,16 @@
     - jameshendry05@gmail.com
   categories:
     - misc
-- repo: pkgsrc_2026_2
-  srcname: sysutils/lsd
-  binname: lsd
-  visiblename: sysutils/lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next gen ls command
-  maintainers:
-    - pin@netbsd.org
+- repo: pclinuxos
+  srcname: lsd
+  visiblename: lsd
+  version: 0.13.0
+  origversion: 0.13.0-1pclos2019
+  status: outdated
+  summary: Colorful ls command line replacement for console
   categories:
-    - sysutils
-- repo: pkgsrc_2026_3
+    - System/Configuration/Hardware
+- repo: pkgsrc_2026_2
   srcname: sysutils/lsd
   binname: lsd
   visiblename: sysutils/lsd
@@ -1291,6 +1291,16 @@
     - trws@spack
   licenses:
     - Apache-2.0
+- repo: starkos
+  subrepo: extra
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-1
+  status: newest
+  summary: Next-Gen ls command
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: lsd
   binname: lsd
