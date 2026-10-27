@@ -1,10 +1,68 @@
-- repo: crates_io
-  srcname: lsd
-  visiblename: lsd
+- repo: liguros_stable
+  srcname: sys-apps/lsd
+  visiblename: sys-apps/lsd
+  version: 1.1.3
+  origversion: 1.1.3-r1
+  status: outdated
+  summary: An ls command with a lot of pretty colors and some other stuff.
+  maintainers:
+    - mgorny@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-DFS-2016
+  categories:
+    - sys-apps
+- repo: liguros_stable
+  srcname: sys-apps/lsd
+  visiblename: sys-apps/lsd
+  version: 1.1.3
+  origversion: 1.1.3-r2
+  status: outdated
+  summary: An ls command with a lot of pretty colors and some other stuff.
+  maintainers:
+    - mgorny@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - sys-apps
+- repo: liguros_develop
+  srcname: sys-apps/lsd
+  visiblename: sys-apps/lsd
   version: 1.2.0
   origversion: null
   status: newest
-  summary: An ls command with a lot of pretty colors and some other stuff.
+  summary: An ls command with a lot of pretty colors and some other stuff
+  maintainers:
+    - mgorny@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - Unicode-DFS-2016
+  categories:
+    - sys-apps
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-lsd
+  binnames:
+    - lsd
+  visiblename: rust-lsd
+  version: 1.2.0
+  origversion: 1.2.0-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - alexander.kjall@gmail.com
+    - heinrich5991@gmail.com
+    - jameshendry05@gmail.com
+  categories:
+    - misc
 - repo: aerynos
   srcname: lsd
   visiblename: lsd
@@ -170,13 +228,6 @@
     - saijin-naib_package-maintenance@outlook.com
   licenses:
     - Apache-2.0
-- repo: homebrew
-  srcname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: Clone of ls with colorful output, file type icons, and more
 - repo: alpine_edge
   subrepo: community
   srcname: lsd
@@ -345,6 +396,13 @@
   origversion: null
   status: newest
   summary: Next generation ls command.
+- repo: crates_io
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: An ls command with a lot of pretty colors and some other stuff.
 - repo: debian_12
   subrepo: bookworm/main
   srcname: rust-lsd
@@ -361,6 +419,22 @@
     - jameshendry05@gmail.com
   categories:
     - misc
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-lsd
+  binnames:
+    - lsd
+    - rust-lsd-debuginfo
+    - rust-lsd-debugsource
+  visiblename: rust-lsd
+  version: 1.2.0
+  origversion: 1.2.0-8.fc44
+  status: newest
+  summary: Ls command with a lot of pretty colors and some other stuff
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: debian_13
   subrepo: trixie/main
   srcname: rust-lsd
@@ -377,6 +451,15 @@
     - jameshendry05@gmail.com
   categories:
     - misc
+- repo: scoop
+  subrepo: main
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: debian_14
   subrepo: forky/main
   srcname: rust-lsd
@@ -400,7 +483,7 @@
     - lsd
   visiblename: rust-lsd
   version: 1.2.0
-  origversion: 1.2.0-4
+  origversion: 1.2.0-5
   status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -448,7 +531,7 @@
     - lsd
   visiblename: rust-lsd
   version: 1.2.0
-  origversion: 1.2.0-4
+  origversion: 1.2.0-5
   status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -520,22 +603,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: rust-lsd
-  binnames:
-    - lsd
-    - rust-lsd-debuginfo
-    - rust-lsd-debugsource
-  visiblename: rust-lsd
-  version: 1.1.5
-  origversion: 1.1.5-3.fc40
-  status: outdated
-  summary: Ls command with a lot of pretty colors and some other stuff
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: rust-lsd
   binnames:
@@ -546,6 +613,22 @@
   version: 1.0.0
   origversion: 1.0.0-3.fc40
   status: legacy
+  summary: Ls command with a lot of pretty colors and some other stuff
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: rust-lsd
+  binnames:
+    - lsd
+    - rust-lsd-debuginfo
+    - rust-lsd-debugsource
+  visiblename: rust-lsd
+  version: 1.1.5
+  origversion: 1.1.5-3.fc40
+  status: outdated
   summary: Ls command with a lot of pretty colors and some other stuff
   licenses:
     - Apache-2.0
@@ -663,22 +746,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
-  srcname: rust-lsd
-  binnames:
-    - lsd
-    - rust-lsd-debuginfo
-    - rust-lsd-debugsource
-  visiblename: rust-lsd
-  version: 1.2.0
-  origversion: 1.2.0-8.fc44
-  status: newest
-  summary: Ls command with a lot of pretty colors and some other stuff
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-lsd
@@ -707,6 +774,61 @@
     - zihado@gmail.com
   categories:
     - sysutils
+- repo: gentoo
+  srcname: sys-apps/lsd
+  visiblename: sys-apps/lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: An ls command with a lot of pretty colors and some other stuff
+  maintainers:
+    - mgorny@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - Unicode-DFS-2016
+  categories:
+    - sys-apps
+- repo: gnuguix
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Mostly ls compatible command with pretty colors
+- repo: homebrew
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Clone of ls with colorful output, file type icons, and more
+- repo: homebrew
+  srcname: lsd
+  visiblename: lsd
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Clone of ls with colorful output, file type icons, and more
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-lsd
+  binnames:
+    - lsd
+  visiblename: rust-lsd
+  version: 1.2.0
+  origversion: 1.2.0-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - alexander.kjall@gmail.com
+    - heinrich5991@gmail.com
+    - jameshendry05@gmail.com
+  categories:
+    - misc
 - repo: macports
   srcname: sysutils/lsd
   binname: lsd
@@ -754,103 +876,6 @@
   summary: Modern ls with a lot of pretty colors and awesome icons
   licenses:
     - Apache-2.0
-- repo: gentoo
-  srcname: sys-apps/lsd
-  visiblename: sys-apps/lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: An ls command with a lot of pretty colors and some other stuff
-  maintainers:
-    - mgorny@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-    - Unicode-DFS-2016
-  categories:
-    - sys-apps
-- repo: gnuguix
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: Mostly ls compatible command with pretty colors
-- repo: homebrew
-  srcname: lsd
-  visiblename: lsd
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Clone of ls with colorful output, file type icons, and more
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-lsd
-  binnames:
-    - lsd
-  visiblename: rust-lsd
-  version: 1.2.0
-  origversion: 1.2.0-4
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - alexander.kjall@gmail.com
-    - heinrich5991@gmail.com
-    - jameshendry05@gmail.com
-  categories:
-    - misc
-- repo: liguros_stable
-  srcname: sys-apps/lsd
-  visiblename: sys-apps/lsd
-  version: 1.1.3
-  origversion: 1.1.3-r1
-  status: outdated
-  summary: An ls command with a lot of pretty colors and some other stuff.
-  maintainers:
-    - mgorny@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-DFS-2016
-  categories:
-    - sys-apps
-- repo: liguros_stable
-  srcname: sys-apps/lsd
-  visiblename: sys-apps/lsd
-  version: 1.1.3
-  origversion: 1.1.3-r2
-  status: outdated
-  summary: An ls command with a lot of pretty colors and some other stuff.
-  maintainers:
-    - mgorny@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-  categories:
-    - sys-apps
-- repo: liguros_develop
-  srcname: sys-apps/lsd
-  visiblename: sys-apps/lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: An ls command with a lot of pretty colors and some other stuff
-  maintainers:
-    - mgorny@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-    - Unicode-DFS-2016
-  categories:
-    - sys-apps
 - repo: msys2_clang64
   srcname: mingw-w64-lsd
   binname: mingw-w64-clang-x86_64-lsd
@@ -941,18 +966,6 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - Apache-2.0
-- repo: pkgsrc_2026_3
-  srcname: sysutils/lsd
-  binname: lsd
-  visiblename: sysutils/lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next gen ls command
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
 - repo: nix_unstable
   srcname: lsd
   visiblename: lsd
@@ -965,6 +978,20 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - Apache-2.0
+- repo: solus
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next generation ls command
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - system.utils
 - repo: openbsd
   srcname: sysutils/lsd
   binname: lsd
@@ -1168,6 +1195,18 @@
     - pin@netbsd.org
   categories:
     - sysutils
+- repo: pkgsrc_2026_3
+  srcname: sysutils/lsd
+  binname: lsd
+  visiblename: sysutils/lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next gen ls command
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
 - repo: pkgsrc_current
   srcname: sysutils/lsd
   binname: lsd
@@ -1228,45 +1267,6 @@
     - jameshendry05@gmail.com
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-lsd
-  binnames:
-    - lsd
-  visiblename: rust-lsd
-  version: 1.2.0
-  origversion: 1.2.0-4
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - alexander.kjall@gmail.com
-    - heinrich5991@gmail.com
-    - jameshendry05@gmail.com
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: solus
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next generation ls command
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - system.utils
 - repo: solus
   srcname: lsd
   binname: lsd-dbginfo
