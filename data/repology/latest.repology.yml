@@ -1,3 +1,156 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.0.0
+  origversion: 1.0.0-1
+  status: outdated
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.0.0
+  origversion: 1.0.0-1
+  status: outdated
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-2
+  status: newest
+  summary: Modern ls with a lot of pretty colors and awesome icons
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-r0
+  status: newest
+  summary: Alternative to ls command
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.2
+  origversion: null
+  status: outdated
+  summary: The next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: lsd
+  binname: lsd-bashcomp
+  visiblename: lsd-bashcomp
+  version: 1.2.0
+  origversion: 1.2.0-r0
+  status: newest
+  summary: Alternative to ls command (bash completions)
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: pkgsrc_current
+  srcname: sysutils/lsd
+  binname: lsd
+  visiblename: sysutils/lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next gen ls command
+  maintainers:
+    - pin@netbsd.org
+  categories:
+    - sysutils
+- repo: pclinuxos
+  srcname: lsd
+  visiblename: lsd
+  version: 0.13.0
+  origversion: 0.13.0-1pclos2019
+  status: outdated
+  summary: Colorful ls command line replacement for console
+  categories:
+    - System/Configuration/Hardware
+- repo: deepin_23
+  subrepo: main
+  srcname: rust-lsd
+  binnames:
+    - lsd
+  visiblename: rust-lsd
+  version: 0.23.1
+  origversion: 0.23.1-7
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - alexander.kjall@gmail.com
+    - heinrich5991@gmail.com
+    - jameshendry05@gmail.com
+  categories:
+    - misc
+- repo: alpine_3_23
+  subrepo: community
+  srcname: lsd
+  binname: lsd-fish-completion
+  visiblename: lsd-fish-completion
+  version: 1.1.5
+  origversion: 1.1.5-r0
+  status: outdated
+  summary: Fish completions for lsd
+  maintainers:
+    - saijin-naib_package-maintenance@outlook.com
+  licenses:
+    - Apache-2.0
 - repo: aerynos
   srcname: lsd
   visiblename: lsd
@@ -81,19 +234,6 @@
   origversion: 1.1.5-r0
   status: outdated
   summary: Bash completions for lsd
-  maintainers:
-    - saijin-naib_package-maintenance@outlook.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: lsd
-  binname: lsd-fish-completion
-  visiblename: lsd-fish-completion
-  version: 1.1.5
-  origversion: 1.1.5-r0
-  status: outdated
-  summary: Fish completions for lsd
   maintainers:
     - saijin-naib_package-maintenance@outlook.com
   licenses:
@@ -283,28 +423,6 @@
 - repo: chimera
   subrepo: user
   srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-r0
-  status: newest
-  summary: Alternative to ls command
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: lsd
-  binname: lsd-bashcomp
-  visiblename: lsd-bashcomp
-  version: 1.2.0
-  origversion: 1.2.0-r0
-  status: newest
-  summary: Alternative to ls command (bash completions)
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: lsd
   binname: lsd-fishcomp
   visiblename: lsd-fishcomp
   version: 1.2.0
@@ -402,22 +520,6 @@
     - jameshendry05@gmail.com
   categories:
     - misc
-- repo: deepin_23
-  subrepo: main
-  srcname: rust-lsd
-  binnames:
-    - lsd
-  visiblename: rust-lsd
-  version: 0.23.1
-  origversion: 0.23.1-7
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - alexander.kjall@gmail.com
-    - heinrich5991@gmail.com
-    - jameshendry05@gmail.com
-  categories:
-    - misc
 - repo: deepin_25
   subrepo: main
   srcname: rust-lsd
@@ -465,16 +567,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: msys2_clang64
-  srcname: mingw-w64-lsd
-  binname: mingw-w64-clang-x86_64-lsd
-  visiblename: mingw-w64-clang-x86_64-lsd
-  version: 1.2.0
-  origversion: 1.2.0-1
-  status: newest
-  summary: The next gen ls command (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0
 - repo: epel_10
   srcname: rust-lsd
   binnames:
@@ -650,18 +742,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: lsd
-  visiblename: lsd
-  version: 1.0.0
-  origversion: 1.0.0-bp156.1.8
-  status: outdated
-  summary: Ls command with a lot of pretty colors and some other stuff
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: fedora_44
   subrepo: release
   srcname: rust-lsd
@@ -722,6 +802,20 @@
     - zihado@gmail.com
   categories:
     - sysutils
+- repo: macports
+  srcname: sysutils/lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next gen ls command
+  maintainers:
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - sysutils
 - repo: gentoo
   srcname: sys-apps/lsd
   visiblename: sys-apps/lsd
@@ -768,7 +862,7 @@
     - lsd
   visiblename: rust-lsd
   version: 1.2.0
-  origversion: 1.2.0-4
+  origversion: 1.2.0-5
   status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -826,63 +920,16 @@
     - Unicode-DFS-2016
   categories:
     - sys-apps
-- repo: macports
-  srcname: sysutils/lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next gen ls command
-  maintainers:
-    - herbygillot@github
-  licenses:
-    - Apache-2
-  categories:
-    - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.0.0
-  origversion: 1.0.0-1
-  status: outdated
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.0.0
-  origversion: 1.0.0-1
-  status: outdated
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-2
-  status: newest
-  summary: Modern ls with a lot of pretty colors and awesome icons
-  licenses:
-    - Apache-2.0
-- repo: starkos
-  subrepo: extra
-  srcname: lsd
-  visiblename: lsd
+- repo: msys2_clang64
+  srcname: mingw-w64-lsd
+  binname: mingw-w64-clang-x86_64-lsd
+  visiblename: mingw-w64-clang-x86_64-lsd
   version: 1.2.0
   origversion: 1.2.0-1
   status: newest
-  summary: Next-Gen ls command
-  maintainers:
-    - starkos@disroot.org
+  summary: The next gen ls command (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0
 - repo: msys2_clangarm64
   srcname: mingw-w64-lsd
   binname: mingw-w64-clang-aarch64-lsd
@@ -903,54 +950,6 @@
   summary: The next gen ls command (mingw-w64)
   licenses:
     - spdx:Apache-2.0
-- repo: nix_stable_24_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.2
-  origversion: null
-  status: outdated
-  summary: The next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: null
-  status: outdated
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: null
-  status: outdated
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: lsd
   visiblename: lsd
@@ -1075,6 +1074,18 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: lsd
+  visiblename: lsd
+  version: 1.0.0
+  origversion: 1.0.0-bp156.1.8
+  status: outdated
+  summary: Ls command with a lot of pretty colors and some other stuff
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: lsd
@@ -1145,15 +1156,6 @@
     - jameshendry05@gmail.com
   categories:
     - misc
-- repo: pclinuxos
-  srcname: lsd
-  visiblename: lsd
-  version: 0.13.0
-  origversion: 0.13.0-1pclos2019
-  status: outdated
-  summary: Colorful ls command line replacement for console
-  categories:
-    - System/Configuration/Hardware
 - repo: pkgsrc_2026_2
   srcname: sysutils/lsd
   binname: lsd
@@ -1167,18 +1169,6 @@
   categories:
     - sysutils
 - repo: pkgsrc_2026_3
-  srcname: sysutils/lsd
-  binname: lsd
-  visiblename: sysutils/lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next gen ls command
-  maintainers:
-    - pin@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
   srcname: sysutils/lsd
   binname: lsd
   visiblename: sysutils/lsd
@@ -1301,6 +1291,16 @@
     - trws@spack
   licenses:
     - Apache-2.0
+- repo: starkos
+  subrepo: extra
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-1
+  status: newest
+  summary: Next-Gen ls command
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: lsd
   binname: lsd
