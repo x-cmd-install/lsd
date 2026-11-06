@@ -37,7 +37,7 @@ x install lsd
 
 ## 流行度
 
-- **Star**: 16,282 · **Fork**: 615 · **开放 issue**: 649 · **贡献者**: 180
+- **Star**: 16,283 · **Fork**: 616 · **开放 issue**: 649 · **贡献者**: 180
 
 ## 累计统计
 
@@ -47,12 +47,12 @@ x install lsd
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 6 | 0 | 1 | 0 |
-| last60d | 2026-09-06 | 0 | 0 | 11 | 0 | 2 | 0 |
-| 90d | 2026-08-07 | 0 | 2 | 18 | 0 | 3 | 2 |
-| last180d | 2026-05-09 | 0 | 3 | 26 | 0 | 5 | 5 |
-| 360d | 2025-11-10 | 0 | 15 | 34 | 3 | 17 | 16 |
-| last720d | 2024-11-15 | 1 | 37 | 38 | 13 | 34 | 39 |
+| 30d | 2026-10-07 | 0 | 0 | 6 | 0 | 1 | 0 |
+| last60d | 2026-09-07 | 0 | 0 | 11 | 0 | 2 | 0 |
+| 90d | 2026-08-08 | 0 | 2 | 17 | 0 | 3 | 2 |
+| last180d | 2026-05-10 | 0 | 3 | 26 | 0 | 5 | 5 |
+| 360d | 2025-11-11 | 0 | 15 | 34 | 3 | 17 | 16 |
+| last720d | 2024-11-16 | 1 | 37 | 38 | 13 | 34 | 39 |
 
 ## Release 资产
 
@@ -96,7 +96,7 @@ x install lsd
 | Ubuntu 26.04 LTS | `1.2.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.0.0` | ⚠️ outdated |
 | Arch | `1.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.2.0` | ✅ latest |
 | Fedora rawhide | `1.2.0` | ✅ latest |
 | Nix unstable | `1.2.0` | ✅ latest |
 | Void | `1.2.0` | ✅ latest |
@@ -112,4 +112,4 @@ lsd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T08:09:33Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T08:16:14Z._
