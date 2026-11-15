@@ -47,12 +47,12 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-09-15 | 0 | 0 | 9 | 0 | 1 | 0 |
-| 90d | 2026-08-16 | 0 | 0 | 12 | 0 | 2 | 1 |
-| last180d | 2026-05-18 | 0 | 3 | 26 | 0 | 5 | 5 |
-| 360d | 2025-11-19 | 0 | 15 | 34 | 3 | 17 | 16 |
-| last720d | 2024-11-24 | 1 | 36 | 38 | 12 | 32 | 38 |
+| 30d | 2026-10-16 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-09-16 | 0 | 0 | 9 | 0 | 1 | 0 |
+| 90d | 2026-08-17 | 0 | 0 | 12 | 0 | 2 | 0 |
+| last180d | 2026-05-19 | 0 | 3 | 26 | 0 | 5 | 5 |
+| 360d | 2025-11-20 | 0 | 15 | 34 | 3 | 17 | 16 |
+| last720d | 2024-11-25 | 1 | 36 | 38 | 12 | 32 | 37 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **109** distros on [repology.org](https://repology.org/project/lsd). **62** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+Reported by **108** distros on [repology.org](https://repology.org/project/lsd). **61** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,4 +112,4 @@ Install metadata for lsd lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T08:31:13Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T08:24:27Z._
