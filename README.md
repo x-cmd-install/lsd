@@ -37,7 +37,7 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 16,291 · **Forks**: 616 · **Open issues**: 649 · **Contributors**: 180
+- **Stars**: 16,292 · **Forks**: 616 · **Open issues**: 649 · **Contributors**: 180
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 9 | 0 | 1 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 11 | 0 | 2 | 0 |
-| last180d | 2026-05-20 | 0 | 3 | 26 | 0 | 5 | 5 |
-| 360d | 2025-11-21 | 0 | 15 | 34 | 3 | 17 | 16 |
-| last720d | 2024-11-26 | 1 | 36 | 38 | 12 | 32 | 37 |
+| 30d | 2026-10-18 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 9 | 0 | 1 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 11 | 0 | 2 | 0 |
+| last180d | 2026-05-21 | 0 | 3 | 26 | 0 | 5 | 5 |
+| 360d | 2025-11-22 | 0 | 15 | 34 | 3 | 17 | 16 |
+| last720d | 2024-11-27 | 1 | 36 | 38 | 12 | 32 | 37 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Total: **12,651** lines of code across **63** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **108** distros on [repology.org](https://repology.org/project/lsd). **61** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+Reported by **109** distros on [repology.org](https://repology.org/project/lsd). **62** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,4 +112,4 @@ Install metadata for lsd lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:59:54Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:56:36Z._
