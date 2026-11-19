@@ -1,48 +1,40 @@
-- repo: nix_stable_24_11
-  srcname: lsd
+- repo: aosc
+  srcname: app-utils/lsd
+  binname: lsd
   visiblename: lsd
   version: 1.1.5
-  origversion: null
+  origversion: 1.1.5-1
   status: outdated
-  summary: Next gen ls command
+  summary: The next gen ls command
   maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: null
-  status: outdated
-  summary: Next gen ls command
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-lsd
+  binnames:
+    - lsd
+  visiblename: rust-lsd
+  version: 1.2.0
+  origversion: 1.2.0-5
+  status: newest
   maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: lsd
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - alexander.kjall@gmail.com
+    - heinrich5991@gmail.com
+    - jameshendry05@gmail.com
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: lsd
   visiblename: lsd
   version: 1.2.0
   origversion: null
   status: newest
-  summary: Next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
   licenses:
     - Apache-2.0
-- repo: pclinuxos
-  srcname: lsd
-  visiblename: lsd
-  version: 0.13.0
-  origversion: 0.13.0-1pclos2019
-  status: outdated
-  summary: Colorful ls command line replacement for console
-  categories:
-    - System/Configuration/Hardware
 - repo: aerynos
   srcname: lsd
   visiblename: lsd
@@ -130,6 +122,21 @@
     - saijin-naib_package-maintenance@outlook.com
   licenses:
     - Apache-2.0
+- repo: altsisyphus
+  srcname: lsd
+  binnames:
+    - lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: 1.2.0-alt1
+  status: newest
+  summary: Ls command with a lot of pretty colors and some other stuff
+  maintainers:
+    - lav@altlinux.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - File tools
 - repo: alpine_3_23
   subrepo: community
   srcname: lsd
@@ -180,17 +187,6 @@
   summary: Bash completions for lsd
   maintainers:
     - saijin-naib_package-maintenance@outlook.com
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: lsd
-  binname: lsd-fishcomp
-  visiblename: lsd-fishcomp
-  version: 1.2.0
-  origversion: 1.2.0-r0
-  status: newest
-  summary: Alternative to ls command (fish completions)
   licenses:
     - Apache-2.0
 - repo: alpine_3_24
@@ -286,33 +282,6 @@
     - Apache-2.0
   categories:
     - File tools
-- repo: altsisyphus
-  srcname: lsd
-  binnames:
-    - lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: 1.2.0-alt1
-  status: newest
-  summary: Ls command with a lot of pretty colors and some other stuff
-  maintainers:
-    - lav@altlinux.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - File tools
-- repo: aosc
-  srcname: app-utils/lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.1.5
-  origversion: 1.1.5-1
-  status: outdated
-  summary: The next gen ls command
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: lsd
@@ -356,6 +325,17 @@
   origversion: 1.2.0-r0
   status: newest
   summary: Alternative to ls command (bash completions)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: lsd
+  binname: lsd-fishcomp
+  visiblename: lsd-fishcomp
+  version: 1.2.0
+  origversion: 1.2.0-r0
+  status: newest
+  summary: Alternative to ls command (fish completions)
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -526,22 +506,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: updates
-  srcname: rust-lsd
-  binnames:
-    - lsd
-    - rust-lsd-debuginfo
-    - rust-lsd-debugsource
-  visiblename: rust-lsd
-  version: 1.1.5
-  origversion: 1.1.5-2.fc39
-  status: outdated
-  summary: Ls command with a lot of pretty colors and some other stuff
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: rust-lsd
   binnames:
@@ -552,6 +516,22 @@
   version: 0.23.1
   origversion: 0.23.1-2.fc39
   status: legacy
+  summary: Ls command with a lot of pretty colors and some other stuff
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: rust-lsd
+  binnames:
+    - lsd
+    - rust-lsd-debuginfo
+    - rust-lsd-debugsource
+  visiblename: rust-lsd
+  version: 1.1.5
+  origversion: 1.1.5-2.fc39
+  status: outdated
   summary: Ls command with a lot of pretty colors and some other stuff
   licenses:
     - Apache-2.0
@@ -669,6 +649,20 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: solus
+  srcname: lsd
+  binname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: The next generation ls command
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - system.utils
 - repo: fedora_43
   subrepo: updates
   srcname: rust-lsd
@@ -733,18 +727,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: lsd
-  visiblename: lsd
-  version: 1.1.2
-  origversion: null
-  status: outdated
-  summary: The next gen ls command
-  maintainers:
-    - zowoq@github
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-lsd
@@ -773,6 +755,20 @@
     - zihado@gmail.com
   categories:
     - sysutils
+- repo: solus
+  srcname: lsd
+  binname: lsd-dbginfo
+  visiblename: lsd-dbginfo
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for lsd
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
 - repo: gentoo
   srcname: sys-apps/lsd
   visiblename: sys-apps/lsd
@@ -954,6 +950,54 @@
   summary: The next gen ls command (mingw-w64)
   licenses:
     - spdx:Apache-2.0
+- repo: nix_stable_24_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.2
+  origversion: null
+  status: outdated
+  summary: The next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: lsd
+  visiblename: lsd
+  version: 1.1.5
+  origversion: null
+  status: outdated
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: lsd
+  visiblename: lsd
+  version: 1.2.0
+  origversion: null
+  status: newest
+  summary: Next gen ls command
+  maintainers:
+    - zowoq@github
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_26_05
   srcname: lsd
   visiblename: lsd
@@ -1160,6 +1204,15 @@
     - jameshendry05@gmail.com
   categories:
     - misc
+- repo: pclinuxos
+  srcname: lsd
+  visiblename: lsd
+  version: 0.13.0
+  origversion: 0.13.0-1pclos2019
+  status: outdated
+  summary: Colorful ls command line replacement for console
+  categories:
+    - System/Configuration/Hardware
 - repo: pkgsrc_2026_2
   srcname: sysutils/lsd
   binname: lsd
@@ -1244,59 +1297,6 @@
     - jameshendry05@gmail.com
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-lsd
-  binnames:
-    - lsd
-  visiblename: rust-lsd
-  version: 1.2.0
-  origversion: 1.2.0-5
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - alexander.kjall@gmail.com
-    - heinrich5991@gmail.com
-    - jameshendry05@gmail.com
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: solus
-  srcname: lsd
-  binname: lsd
-  visiblename: lsd
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: The next generation ls command
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - system.utils
-- repo: solus
-  srcname: lsd
-  binname: lsd-dbginfo
-  visiblename: lsd-dbginfo
-  version: 1.2.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for lsd
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: spack
   srcname: lsd
   visiblename: lsd
